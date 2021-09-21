@@ -20,6 +20,20 @@
 
             <label for="InputDiscount">Escribe el porcentaje de descuento</label>
             <input id="InputDiscount" type="number">
+
+            <label for="InputCupon">Cupones</label>
+            <select name="" id="InputCupon">
+                <option>VecinoFiel</option>
+                <option>Estudiante</option>
+                <option>Empleado</option>
+            </select>
+            <button type="button" onclick="onClickAgregarCupon()">
+                Agregar Cupon
+            </button>
+            <button type="button" onclick="onClickEliminarCupon()">
+                Eliminar Cupon
+            </button>
+
             <button type="button" onclick="onClickButtonPriceDiscount()">
                 Calcular
             </button>
