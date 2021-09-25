@@ -98,3 +98,8 @@ colombia.push({
     name: 'Ethan',
     salary: 10000,
 });
+
+colombia.push({
+    name: 'Tania',
+    salary: 3600,
+});
